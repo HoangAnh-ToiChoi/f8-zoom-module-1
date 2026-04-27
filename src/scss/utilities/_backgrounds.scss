@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as v;
+
+.black-bg {
+    background: v.$color-black;
+}
+
+.white-bg {
+    background: v.$color-white;
+}
+
+.green-bg {
+    background: v.$color-green;
+    width: 100%;
+}
+
+.orange-bg {
+    background: v.$color-primary;
+    border-radius: 15px;
+}
+
+.yellow_light-bg {
+    background: v.$color-bg-yellow-light;
+}

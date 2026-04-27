@@ -1,0 +1,41 @@
+@use "../abstracts/variables" as v;
+
+.btn {
+    font-family: v.$font-primary;
+    font-weight: 600;
+    background: v.$color-primary;
+    color: v.$color-white;
+    padding: 15px 35px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    transition: background 0.3s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        background: v.$color-accent;
+    }
+}
+
+.btn-search {
+    padding: 10px 15px;
+    background: v.$color-primary;
+    border-radius: 5px;
+    color: v.$color-white;
+    width: fit-content;
+    height: fit-content;
+    outline: none;
+    border: none;
+    transition: background 0.3s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        background: v.$color-accent;
+    }
+
+    * {
+        text-align: center;
+    }
+}

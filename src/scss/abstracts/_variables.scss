@@ -1,0 +1,66 @@
+$grid-breakpoints: (
+    xxl: 1400px,
+    xl: 1200px,
+    lg: 992px,
+    md: 768px,
+    sm: 576px,
+);
+
+$practice-image-inline-spacing-desktop: 40px;
+$practice-image-inline-spacing-mobile: 20px;
+
+$practice-section-gap-desktop: 120px;
+$practice-section-gap-tablet: 96px;
+$practice-section-gap-mobile: 72px;
+
+$practice-content-gap-desktop: 30px;
+$practice-content-gap-tablet: 24px;
+$practice-content-gap-mobile: 20px;
+
+$practice-title-size-desktop: 4.2rem;
+$practice-title-size-tablet: 3.4rem;
+$practice-title-size-mobile: 2.8rem;
+
+$practice-body-size-desktop: 1.8rem;
+$practice-body-size-tablet: 1.7rem;
+$practice-body-size-mobile: 1.6rem;
+
+// =====================
+// Colors
+// =====================
+
+// Brand colors
+$color-primary: #fd6038;
+$color-secondary: #beccc7;
+$color-accent: #783df0;
+
+// Neutral - Black & White
+$color-black: #000000;
+$color-white: #ffffff;
+
+// Dark tones
+$color-dark: #0e1412;
+$color-dark-alt: #313d39;
+
+// Text / Muted
+$color-text-muted: #586863;
+
+// Background colors
+$color-bg-yellow-light: #f8ebc9;
+$color-bg-gray-light: #e0e0e0;
+$color-bg-dark-card: #eceaea;
+
+// Green (statistics section)
+$color-green: #017848;
+
+// Special
+$color-border: #ccc;
+$color-yellow-link: #fed464;
+
+$color-greys: #404040;
+
+// =====================
+// Fonts
+// =====================
+$font-primary: "Manrope", sans-serif;
+$font-heading: "Roboto Slab", serif;

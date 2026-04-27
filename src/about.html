@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Learn about Law Firm's story, our passionate team of experienced trial lawyers, and our commitment to justice. Meet the attorneys fighting for your rights."
+        />
+        <title>About - Law Firm</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Slab:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="about-page">
+        <%- include('./partials/shared/header.ejs') %>
+        <main>
+            <%- include('./partials/pages/about/hero.ejs') %>
+            <%- include('./partials/pages/about/story.ejs') %>
+            <%- include('./partials/pages/about/gallery.ejs') %>
+            <%- include('./partials/pages/about/video.ejs') %>
+            <%- include('./partials/pages/about/team.ejs') %>
+            <%- include('./partials/pages/about/award.ejs') %>
+            <%- include('./partials/shared/cta.ejs') %>
+        </main>
+        <%- include('./partials/shared/footer.ejs') %>
+
+        <script type="module" src="main.js"></script>
+    </body>
+</html>

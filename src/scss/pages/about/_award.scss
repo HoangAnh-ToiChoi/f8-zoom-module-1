@@ -1,0 +1,100 @@
+@use "../../abstracts/variables" as v;
+@use "../../abstracts/mixins" as m;
+
+.awards {
+    padding-bottom: 120px;
+
+    @include m.screen(xl) {
+        padding-bottom: 90px;
+    }
+
+    @include m.screen(lg) {
+        padding-bottom: 60px;
+    }
+
+    @include m.screen(sm) {
+        padding-bottom: 40px;
+    }
+
+    &-heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        gap: 20px;
+        font-family: v.$font-heading;
+
+        @include m.screen(lg) {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+        @include m.screen(sm) {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .awards-title {
+            font-size: 4.2rem;
+            font-weight: 700;
+            line-height: 52px;
+            text-transform: capitalize;
+            color: v.$color-black;
+
+            @include m.screen(lg) {
+                font-size: 3.2rem;
+                line-height: 42px;
+            }
+
+            @include m.screen(sm) {
+                font-size: 2.6rem;
+                line-height: 36px;
+            }
+        }
+
+        .awards-tagline {
+            font-size: 1.8rem;
+            color: v.$color-black;
+        }
+
+        .awards-description {
+            font-size: 1.8rem;
+            color: v.$color-text-muted;
+            font-family: v.$font-primary;
+            font-weight: 400;
+            max-width: 460px;
+            text-align: center;
+
+            @include m.screen(sm) {
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    &-item {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+
+        .btn {
+            font-family: v.$font-primary;
+            font-weight: 600;
+            background: v.$color-primary;
+            padding: 15px 50px;
+            font-size: 1.8rem;
+            color: v.$color-white;
+            outline: none;
+            border: none;
+        }
+    }
+}

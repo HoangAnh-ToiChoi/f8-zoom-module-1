@@ -1,0 +1,94 @@
+@use "../../abstracts/variables" as v;
+@use "../../abstracts/mixins" as m;
+
+.blog-nav {
+    margin-top: 60px;
+
+    @include m.screen(lg) {
+        margin-top: 48px;
+    }
+
+    @include m.screen(sm) {
+        margin-top: 36px;
+    }
+
+    .blog-header {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        @include m.screen(sm) {
+            gap: 18px;
+        }
+
+        .blog-title {
+            max-width: 680px;
+            font-family: v.$font-heading;
+            font-size: 6rem;
+            font-weight: 800;
+            line-height: 1.16;
+            text-transform: capitalize;
+            color: v.$color-dark;
+
+            @include m.screen(lg) {
+                font-size: 4.8rem;
+            }
+
+            @include m.screen(md) {
+                font-size: 4rem;
+            }
+
+            @include m.screen(sm) {
+                font-size: 3rem;
+            }
+        }
+
+        .nav {
+            .sub-nav {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 16px;
+
+                @include m.screen(sm) {
+                    gap: 12px;
+                }
+
+                li {
+                    background: v.$color-dark;
+                    transition: background 0.3s ease-in-out;
+
+                    @include m.screen(sm) {
+                        flex: 1 1 calc(50% - 6px);
+                    }
+
+                    a {
+                        display: block;
+                        padding: 16px 28px;
+                        text-decoration: none;
+                        color: v.$color-white;
+                        font-family: v.$font-primary;
+                        font-size: 1.8rem;
+                        font-weight: 600;
+                        line-height: 1.4;
+                        text-align: center;
+
+                        @include m.screen(md) {
+                            padding: 14px 22px;
+                            font-size: 1.7rem;
+                        }
+
+                        @include m.screen(sm) {
+                            padding: 14px 18px;
+                            font-size: 1.6rem;
+                        }
+                    }
+
+                    &:hover {
+                        background: v.$color-primary;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
