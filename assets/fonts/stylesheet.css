@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Regular.woff2') format('woff2'),
+        url('Manrope-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Bold.woff2') format('woff2'),
+        url('Manrope-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Medium.woff2') format('woff2'),
+        url('Manrope-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('Inter18pt-Bold.woff2') format('woff2'),
+        url('Inter18pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('Inter18pt-Regular.woff2') format('woff2'),
+        url('Inter18pt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter 18pt';
+    src: url('Inter18pt-Thin.woff2') format('woff2'),
+        url('Inter18pt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Light.woff2') format('woff2'),
+        url('RobotoSlab-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Medium.woff2') format('woff2'),
+        url('RobotoSlab-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Regular.woff2') format('woff2'),
+        url('RobotoSlab-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('RobotoSlab-Bold.woff2') format('woff2'),
+        url('RobotoSlab-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
