@@ -2,8 +2,8 @@ import { defineConfig } from "vite";
 import { ViteEjsPlugin } from "vite-plugin-ejs";
 import path from "path";
 
-export default defineConfig({
-    base: "/f8-zoom-module-1",
+export default defineConfig(({ command }) => ({
+    base: command === "build" ? "/f8-zoom-module-1" : "/",
 
     root: "src",
 
@@ -25,4 +25,4 @@ export default defineConfig({
     },
 
     plugins: [ViteEjsPlugin()],
-});
+}));

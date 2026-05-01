@@ -68,7 +68,7 @@
             background: #f8ebc9;
             border-radius: 15px;
             transition:
-                transform,
+                transform 0.3s ease,
                 box-shadow 0.3s ease;
 
             figure {
@@ -158,6 +158,8 @@
             &:hover {
                 transform: translateY(-5px);
                 box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.1);
+                
+
             }
         }
 
