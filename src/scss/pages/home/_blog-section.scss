@@ -68,7 +68,7 @@
 
         .blog-content {
             transition:
-                transform,
+                transform 0.3s ease,
                 box-shadow 0.3s ease;
 
             .blog-desc {
